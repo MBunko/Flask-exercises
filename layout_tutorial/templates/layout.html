@@ -1,0 +1,11 @@
+<html>
+<body>
+{% for user in ["ben", "harry", "bob", "jay", "matt", "bill"] %}
+{% if user[0]=="b" %}
+<h1>{{user}}<h1></h1>
+{% endif %}
+{% endfor %}
+{% block body %}
+{% endblock body %}
+</body>
+</html>
